@@ -10,15 +10,15 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: linear-gradient(to right, #CDFFD7, #92B8FF);
-    color: #333;
 }
 
 /* Header Styling */
 header {
-    background: #333;
-    color: #fff;
+    background: #68B884;
+    color: #000;
     padding: 10px 0;
     text-align: center;
+    border-bottom:1px solid #80808080;
 }
 
 /* Main Content Styling */
@@ -28,10 +28,11 @@ main {
 
 /* Footer Styling */
 footer {
-    background: #333;
-    color: #fff;
+    background: #68B884;
+    color: #000;
     text-align: center;
     position: fixed;
     width: 100%;
+    border-top:1px solid #80808080;
     bottom: 0;
 }
