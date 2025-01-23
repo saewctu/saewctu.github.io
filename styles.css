@@ -7,8 +7,7 @@
 
 /* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
     background: linear-gradient(to right, #CDFFD7, #92B8FF);
 }
 
