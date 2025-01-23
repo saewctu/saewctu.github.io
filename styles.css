@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 
+.nav-item {
+    text: white;
+}
+
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #CDFFD7, #92B8FF);
     color: #333;
 }
 
@@ -23,7 +27,6 @@ header {
 
 /* Main Content Styling */
 main {
-    margin: 5px 0;
     padding: 20px;
 }
 
