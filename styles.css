@@ -35,3 +35,12 @@ footer {
     border-top:1px solid #80808080;
     bottom: 0;
 }
+
+main section img {
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+    float: right;
+    margin-right: 100px;
+    
+}
