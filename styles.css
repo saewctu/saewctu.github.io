@@ -30,7 +30,8 @@ footer {
     background: #68B884;
     color: #000;
     text-align: center;
-    position: fixed;
+    position: relative;
+    height: 2em;
     width: 100%;
     border-top:1px solid #80808080;
     bottom: 0;
