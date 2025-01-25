@@ -75,10 +75,6 @@ h1 {
     flex-direction: row;
 }
 
-.palaute {
-    padding: 0px;
-}
-
 .palaute img {
     max-height: 500px;
     object-fit: cover;

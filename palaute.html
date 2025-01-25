@@ -39,9 +39,9 @@
         </div>
       </nav>        
     </header>
-    <main class="palaute">
+    <main class="p-0">
       <section>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="smilingworkers.jpg" class="d-block w-100" alt="...">
@@ -74,6 +74,55 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <div class="d-md-none">
+          <div class="row">
+            <div class="card bg-transparent">
+              <img src="smilingworkers.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nopeus ja luotettavuus</h5>
+                  <p class="card-text">Eräänä kiireisenä aamuna, kun olin unohtanut tärkeän asiakirjan kotiin, päätin käyttää paikallista kuljetuspalvelua. Soitin heille ja selitin tilanteen. Kuljettaja saapui nopeasti ja otti asiakirjan mukaansa. Hän piti minut ajan tasalla koko matkan ajan ja varmisti, että asiakirja toimitettiin toimistolleni ajoissa. Tämä pelasti päiväni ja varmisti, että tärkeä kokous sujui suunnitellusti. Olin todella vaikuttunut heidän nopeudestaan ja luotettavuudestaan.</p>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card bg-transparent">
+              <div class="card-body">
+                <img src="handsfood.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ystävällinen palvelu</h5>
+                    <p class="card-text">Olin tilannut suuren määrän tavaroita verkkokaupasta ja odotin niiden saapumista. Kun kuljetuspalvelun kuljettaja saapui, hän oli erittäin ystävällinen ja avulias. Hän auttoi minua kantamaan raskaat laatikot sisälle ja varmisti, että kaikki oli kunnossa ennen kuin hän lähti. Hänen ystävällisyytensä ja avuliaisuutensa tekivät koko kokemuksesta miellyttävän ja stressittömän. Tunsin, että minua arvostettiin asiakkaana.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card bg-transparent">
+              <img src="kebab.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Erityistarpeiden huomioiminen</h5>
+                  <p class="card-text">Minulla oli erityinen tilanne, jossa tarvitsin kuljetuspalvelua siirtämään herkkiä ja arvokkaita esineitä. Olin huolissani siitä, miten esineet käsiteltäisiin ja kuljetettaisiin. Kuljetuspalvelun henkilökunta oli erittäin ymmärtäväinen ja otti huomioon kaikki erityistarpeeni. He käyttivät asianmukaisia suojamateriaaleja ja varmistivat, että esineet saapuivat perille vahingoittumattomina. Tämä kokemus vahvisti luottamustani heidän ammattitaitoonsa ja huolellisuuteensa.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-4">
+        <h2>Anna palautetta</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nimi" class="form-label">Nimi</label>
+            <input type="text" class="form-control" id="nimi" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Sähköposti</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="viesti" class="form-label">Viesti</label>
+            <textarea class="form-control" id="viesti" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Lähetä</button>
+        </form>
       </section>
     </main>
     <footer>
