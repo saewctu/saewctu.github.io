@@ -51,8 +51,8 @@ h1 {
     width: 50%;
     height: auto;
     margin-left: 100px;
-    float: right;
     margin-right: 100px;
+    float: right;
     
 }
 
@@ -61,6 +61,7 @@ h1 {
     height: auto;
     margin-left: 20px;
     margin-top: 20px;
+    float: left;
     
 }
 
