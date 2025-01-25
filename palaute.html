@@ -130,15 +130,27 @@
       <section class="p-4">
         <h2>Anna palautetta</h2>
         <form>
-          <div class="mb-3">
-            <label for="nimi" class="form-label">Nimi</label>
-            <input type="text" class="form-control" id="nimi" required>
+          <div class="row">
+            <div class="mb-3 col-8 col-md-5 col-lg-4 col-xl-3">
+              <label for="nimi" class="form-label">Etunimi</label>
+              <input type="text" class="form-control" id="etunimi" required>
+            </div>
+            <div class="mb-3 col-8 col-md-5 col-lg-4 col-xl-3">
+              <label for="sukunimi" class="form-label">Sukunimi</label>
+              <input type="text" class="form-control" id="sukunimi" required>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Sähköposti</label>
-            <input type="email" class="form-control" id="email" required>
+          <div class="row">
+            <div class="mb-3 col-8 col-md-5 col-lg-4 col-xl-3">
+              <label for="email" class="form-label">Sähköposti</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3 col-8 col-md-5 col-lg-4 col-xl-3">
+              <label for="puhelin" class="form-label">Puhelinnumero</label>
+              <input type="tel" class="form-control" id="puhelin" required>
+            </div>
           </div>
-          <div class="mb-3">
+          <div class="mb-3 col-10 col-md-8 col-lg-6 col-xl-5">
             <label for="viesti" class="form-label">Viesti</label>
             <textarea class="form-control" id="viesti" rows="3" required></textarea>
           </div>
