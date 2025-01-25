@@ -41,7 +41,7 @@ footer {
     bottom: 0;
 }
 
-main section img {
+.etusivunkuva {
     width: 50%;
     height: auto;
     margin-left: 100px;
@@ -54,7 +54,7 @@ h1 {
     font-family: 'Yellowtail', cursive;
   }
 
-.col img {
+.tuotteet img {
     max-width: 200px;
     height: auto;
     margin-left: 20px;
