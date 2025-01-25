@@ -23,6 +23,9 @@ header {
 /* Main Content Styling */
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Footer Styling */
@@ -30,7 +33,7 @@ footer {
     background: #68B884;
     color: #000;
     text-align: center;
-    position: relative;
+    position: absolute;
     height: 2em;
     width: 100%;
     border-top:1px solid #80808080;
