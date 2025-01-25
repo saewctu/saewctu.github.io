@@ -41,6 +41,12 @@ footer {
     bottom: 0;
 }
 
+/* Text Styling */
+h1 {
+    font-family: 'Yellowtail', cursive;
+  }
+
+/* Classes Styling */
 .etusivunkuva {
     width: 50%;
     height: auto;
@@ -49,10 +55,6 @@ footer {
     margin-right: 100px;
     
 }
-
-h1 {
-    font-family: 'Yellowtail', cursive;
-  }
 
 .tuotteet img {
     max-width: 200px;
