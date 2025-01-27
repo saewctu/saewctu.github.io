@@ -84,7 +84,11 @@ h1 {
 .yhteystieto-img img {
     max-height: 600px;
     max-width: 100%;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-    float: center;
+    box-sizing: border-box;
+    display: block;
 }
