@@ -48,6 +48,21 @@ h1 {
   }
 
 /* Classes Styling */
+.btn-primary {
+    color: #000;
+    background: #68B884;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #000;
+}
+
+.btn-primary:active:focus {
+    background: #000;
+}
+
+
 .etusivunkuva {
     width: 50%;
     height: auto;
