@@ -51,15 +51,18 @@ h1 {
 .btn-primary {
     color: #000;
     background: #68B884;
-    border: none;
+    border-color: #80808080;
 }
 
 .btn-primary:hover {
     background: #000;
+    border-color: #80808080;
+
 }
 
 .btn-primary:active:focus {
     background: #000;
+    border-color: #80808080;
 }
 
 
